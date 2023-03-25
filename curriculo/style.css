@@ -1,0 +1,92 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* menu */
+#menu ul{
+    background-color: #000000;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0; 
+    text-align: center;
+    position: relative;  
+  
+}
+
+    #menu ul li{
+    display: inline;
+}
+
+#menu ul li a {
+    color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .5s;
+}
+
+#menu ul li a:hover{
+    background-color: #fc6d6d;
+}
+
+/* fim menu*/
+
+/*foto perfil*/
+.foto-perfil{
+    position: absolute;
+    right: 75%;
+    top: 5%;
+    border: 8px solid #ffffff;
+}
+
+.objetivo{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    position: absolute;
+    margin-top: 150px;
+    margin-right: 10%;
+    padding: 100px;
+    background-color: #ffffff;  
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+h1{
+    position: absolute;
+    right: 613px;
+    margin-top: 80px;
+    float: none;
+   
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 505px;
+    padding: 50px 0 100px 0;
+    
+}
+
+
+button{
+    background-color: #ececec;
+    border: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif   ;
+    float: none;
+    position: absolute;
+    right: 17%;
+    margin-top: 35%;
+  
+}

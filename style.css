@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/* Tela de WELCOME */
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #000000;  
+
+}
+
+.container{
+    display: inline-flex;
+}
+
+.container .estatico{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.container .dinamico{
+    margin-left: 15px;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.dinamico li{
+    color: #fc6d6d;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    left: 0;
+    position: relative;
+    top: 0;
+    animation: slide 8s steps(4) infinite;
+}
+
+@keyframes slide{
+    100%{
+        top: -360px;
+    }
+
+}
+
+.dinamico li span{
+    position: relative;
+}
+
+.dinamico li span::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;    
+    border-left: 2px solid #fc6d6d;
+    animation: typing 2s steps(18) infinite;
+    background:#000000
+}
+
+.dinamico li span{
+    position: relative;
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+/* Final tela WELCOME */
+
+button{ 
+    border: none;
+    padding: 10px;
+    position: absolute;
+    left: 47%;
+    top: 500px;
+    font-family: 'poppins' sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+button:hover{
+    background: #fc6d6d;
+    color:#111111;
+}

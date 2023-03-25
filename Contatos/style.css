@@ -1,0 +1,122 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* menu */
+#menu ul{
+    background-color: #000000;
+}
+
+@media (max-width: 1300px){
+    main{
+        width: 470px;
+        text-align: center;
+    }
+    
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0; 
+    text-align: center;
+    position: relative;  
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a {
+    color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .5s;
+}
+
+#menu ul li a:hover{
+    background-color: #fc6d6d;
+}
+
+/* fim menu*/
+
+/*foto perfil*/
+.foto-perfil{
+    position: absolute;
+    right: 75%;
+    top: 5%;
+    border: 8px solid #ffffff;
+}
+
+.objetivo{
+    margin-left: 15%;
+    text-align: justify;
+    position: absolute;
+    margin-top: 150px;
+    padding: 100px;
+    background-color: #ffffff;  
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redes-sociais{
+    margin-left: 55%;
+    text-align: justify;
+    position: absolute;
+    margin-top: 150px;
+    padding: 100px;
+    background-color: #ffffff;  
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+h1{
+    position: absolute;
+    right: 613px;
+    margin-top: 80px;
+   
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 505px;
+    padding: 50px 0 100px 0;
+    
+}
+
+.icon{
+    float: none;
+    position: absolute;
+    right:78%;
+    top: 56%;
+
+}
+
+.icon2{
+    float: none;
+    position: absolute;
+    right:38%;
+    top: 60%;
+
+}
+
+.git{
+    float: none;
+    position: absolute;
+    right:38%;
+    top: 63.6%;
+
+}
+
+.insta{
+    float: none;
+    position: absolute;
+    right:38%;
+    top: 56.4%;
+}
